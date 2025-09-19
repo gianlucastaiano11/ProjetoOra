@@ -1,0 +1,183 @@
+
+  @font-face {
+    font-family: Roboto;
+    src:
+    local("Roboto"),
+    url(Fonts/fonteroboto/Roboto-Regular.ttf) format(truetype);
+    
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: Viaoda Libre;
+    src:  
+    local("Viaoda Libre"),
+    url(Fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf) format(truetype);
+    
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  :root{
+      --cor_texto: #555;
+      --background_top_header: #162028;
+      --cor_texto_menu: #425564;
+
+  }
+
+  body{
+      font-family: Roboto;
+      margin: 0 auto;
+      font-size: 1rem;
+  }
+
+  .Header{
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .Header__titulo{
+    font-family: Viaoda Libre;
+    color: white;
+    margin: 0 0 0 250px;
+    font-size: 3em;
+    flex-shrink: 1;
+  }
+
+  .Nav__list{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    text-align: center;
+    justify-content: center ;
+    margin-right: 40px;
+    
+    
+  }
+
+  .Nav__list a{
+    text-decoration: none;
+    color: var(--cor_texto_menu);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    gap: 40px ;
+  }
+
+  .Nav__list a:hover{
+    text-shadow: 1px 1px 2px rgb(115, 175, 209, 0.8);
+  }
+
+  .Section__image{
+    background-image: url(imagens/topo.jpg);
+    height: 1000px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .Main{
+    margin-top: 100px;
+    width: 100%;
+    
+  }
+  .Main__intro{
+    
+  }
+
+  .Main__container{
+    max-width: 1060px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Main__intro h2{
+    text-align: center;
+    justify-content: center;
+    font-family: Viaoda Libre;
+    font-size: 2.5rem;
+  }
+
+  .Main__intro p{
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+  }
+
+  .Main__card{
+    display: flex ;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 40px ;
+    margin-top: 100px;
+  }
+
+  .Div__card{
+    text-align: center;
+    
+  }
+
+  .Div__card b{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1rem;
+  }
+
+  .Main__section__outro{
+    background-image: url(imagens/bg_detalhe.png);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin: 100px auto 0;
+
+       display: flex;
+  align-items: center; 
+    
+    
+    
+  }
+
+  .Main__outro--wrapper{
+      max-width: 960px; /* Define a largura máxima do seu bloco de texto */
+  margin: 0 auto;    /* Centraliza o container na horizontal */
+  width: 100%;       /* Garante responsividade */
+  padding: 0 20px;   /* Evita que o texto cole nas bordas em telas menores */
+  box-sizing: border-box;
+  }
+
+
+  .Main__section__outro h2{
+    
+    justify-content: center;
+    font-family: Viaoda Libre;
+    font-size: 3.2rem;
+    
+    color: white;
+    margin: 0 auto  ;
+  }
+
+  .Main__section__outro p{
+    
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+    
+    color: white  ;
+  }
+
+  .Footer{
+    background-color: #0b171f;
+    text-align: center;
+    color: #6f8597;
+    letter-spacing: 4px;
+    padding: 30px;
+  }
