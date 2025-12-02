@@ -1,2 +1,1 @@
-Projeto ModaOra - tela principal de um site de moda, criado para fins educativos.
-Tecnologias utilizadas: HTML5 & CSS3
+Landing Page: Projeto Moda Ora — HTML & CSS: Desenvolvimento de uma página web informativa com layout otimizado para desktop. O projeto focou na aplicação de boas práticas de codificação, como semântica no HTML (uso correto de tags como <header>, <main>, <section>) e estrutura clara do CSS para facilitar futuras manutenções e acessibilidade. Demonstra a fundação na construção e organização de estruturas web.
